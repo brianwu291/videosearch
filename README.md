@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## See The Demo
+This project can make you find some videos through request to YouTube api.
+
+Try this app → https://brianwu291.github.io/videosearch
+
 ## Available Scripts
 
 In the project directory, you can run:
