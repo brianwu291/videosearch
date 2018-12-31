@@ -11,7 +11,11 @@ const VideoList = ( { videos, onVideoSelect } ) => {
   });
 
   return (
-    <div className="ui relaxed divided list">{renderedList}</div>
+    <div className="ui segment">
+      <div className="ui divided items ui middle aligned animated list">
+        {renderedList}
+      </div>
+    </div>
   );
 }
 

@@ -19,18 +19,21 @@ class SearchBar extends React.Component {
 
   render(){
     return (
-      <div className="search-bar ui segment">
+      <div className="ui segments"
+           style={{ marginTop: '2rem' }}>
         <form
           className="ui form"
           onSubmit={this.onFormSubmit}>
-          <div className="ui fluid action input field">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={this.state.term}
-            onChange={this.onInputChange}></input>
-          <div className="ui button" onClick={this.onButtonClick}>Search</div>
-        </div>
+          <div className="field">
+            <div className="ui fluid action input">
+              <input
+                type="text"
+                placeholder="Search..."
+                value={this.state.term}
+                onChange={this.onInputChange}></input>
+              <div className="ui button" onClick={this.onButtonClick}>Search</div>
+            </div>
+          </div>
         </form>
       </div>
     );

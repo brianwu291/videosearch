@@ -35,20 +35,18 @@ class App extends React.Component {
   };
 
   render(){
-    console.log('render');
+    console.log('render');  //ui two column stackable grid
     return (
       <div className="ui container">
         <SearchBar onTermSubmit={this.onTermSubmit}/>
-        <div className="ui grid">
-          <div className="ui row">
-            <div className="eleven wide column">
-              <VideoDetail video={this.state.selectedVideo} remove={this.remove}/>
-            </div>
-            <div className="five wide column">
-              <VideoList
-                videos={this.state.videos}
-                onVideoSelect={this.onVideoSelect}/>
-            </div>
+        <div className="ui stackable two column grid">
+          <div className="ten wide column">
+            <VideoDetail video={this.state.selectedVideo} remove={this.remove}/>
+          </div>
+          <div className="six wide column">
+            <VideoList
+              videos={this.state.videos}
+              onVideoSelect={this.onVideoSelect}/>
           </div>
         </div>
       </div>
