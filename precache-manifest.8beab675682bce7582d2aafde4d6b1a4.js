@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/videosearch/static/js/1.08d9b7f3.chunk.js"
   },
   {
-    "revision": "a6b01ff1c64773f8e32c6709261b40c8",
+    "revision": "b4f62a03a5e67b8f8b8defb8f280a5cc",
     "url": "/videosearch/index.html"
   }
 ];
