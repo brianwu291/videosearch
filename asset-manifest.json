@@ -1,11 +1,11 @@
 {
-  "main.js": "/videosearch/static/js/main.bc510a41.chunk.js",
-  "main.js.map": "/videosearch/static/js/main.bc510a41.chunk.js.map",
+  "main.js": "/videosearch/static/js/main.cf82e921.chunk.js",
+  "main.js.map": "/videosearch/static/js/main.cf82e921.chunk.js.map",
   "static/js/1.08d9b7f3.chunk.js": "/videosearch/static/js/1.08d9b7f3.chunk.js",
   "static/js/1.08d9b7f3.chunk.js.map": "/videosearch/static/js/1.08d9b7f3.chunk.js.map",
   "runtime~main.js": "/videosearch/static/js/runtime~main.fbd45bd7.js",
   "runtime~main.js.map": "/videosearch/static/js/runtime~main.fbd45bd7.js.map",
   "index.html": "/videosearch/index.html",
-  "precache-manifest.8beab675682bce7582d2aafde4d6b1a4.js": "/videosearch/precache-manifest.8beab675682bce7582d2aafde4d6b1a4.js",
+  "precache-manifest.062c2ce428b8d022e1c89c958f3e681e.js": "/videosearch/precache-manifest.062c2ce428b8d022e1c89c958f3e681e.js",
   "service-worker.js": "/videosearch/service-worker.js"
 }
