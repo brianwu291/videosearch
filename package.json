@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://brianwu291.github.io/videosearch",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
